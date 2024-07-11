@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    top: 0px;
+}
+.navbar a {
+    text-decoration: none;
+    font-style: ;
+}
+.navbar a h1 {
+    font-style: normal;
+    color: rgb(53, 15, 179);
+    font-size: 40px;
+    text-shadow: 15px;
+    
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+    
+  }
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 5px 22px;
+    text-decoration: none;
+    color: black;
+}
+.navbar ul img {
+    display: flex;
+    position: relative;
+}
+button{
+    color: blue;
+    border-bottom: 10px;
+    back
+}
