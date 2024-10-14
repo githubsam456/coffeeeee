@@ -1,0 +1,174 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.notice {
+    background-color: #118acb;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+    width: 60%;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    gap: 10PX;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul img {
+    display: flex;
+}
+
+/* ---------------BUTTON----------------- */
+button {
+    color: white;
+    border-bottom: 10px;
+    background-color: #118acb;
+    padding: 7px;
+    border-style: none;
+}
+.guide {
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 1000;
+}
+/* -------------------------MAIN------------------------- */
+.buyitem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: start;
+    padding: 25PX;
+    /* gap: 10px; */
+    /* grid-auto-rows: minmax(100px, auto); */
+}
+
+/* .icon button :hover {
+ color: #118acb;
+ background-color: white;
+} */
+
+
+.buyitem img {
+    position: relative;
+    width: 95%;
+    /* height: 70%; */
+    background-size: cover;
+    /* margin-left: 25px; */
+}
+.buy h4 {
+    /* margin-left: 25px; */
+    text-align: left ;
+    font-size: 18px;
+}
+.joeimg img {
+    width: 100%;
+    position: relative;
+    height: 500px;
+    object-fit: cover;
+}
+.bar {
+    color: white;
+    position: absolute;
+    font-weight: 300px;
+    font-size: 20px;
+    /* border: solid; */
+    top: 230%;
+    left: 40px;
+    width: 900px;
+    /* translate: 10% -170px; */
+    font-weight:  bolder;
+}
+.bar h4{
+    text-shadow: #118acb;
+    font-size: 18px;
+}
+.bar h1 {
+    font-size: 50px;
+}
+/* -----------------------------FOOTER------------------------ */
+
+.footerend  {
+    color: white;
+    display: flex;
+    padding: 20px;
+    background-color: #118acb;
+    justify-content: space-between;
+}
+.footerend li{
+    list-style-type: none;
+}
+
+.formtext {
+    display: flex;
+    background-color: #118acb;
+    /* justify-content: space-between; */
+    color: white;
+    padding: 25px;
+    /* padding: 15px 5px; */
+    gap: 50%;
+}
+
+.formtext input{
+    background-color: #118acb;
+}
+::placeholder {
+color: white;
+}
+.email input {
+    border: none;
+    width: 300px;
+    padding: 20px;
+} 
+.formft {
+    display: flex
+}
+.formft .email {
+    border: 1px solid white;
+}
+.formft {
+    width: 100px;
+    border-width: 500px;
+}
+.endbut button {
+    background-color: white;
+    color: #118acb;
+    padding: 21px 21px;
+}
+.email input:focus {
+    outline: none;
+}
+.shop li:hover {
+    text-decoration: underline;
+}
+.Learn li:hover {
+   text-decoration: underline;
+}
